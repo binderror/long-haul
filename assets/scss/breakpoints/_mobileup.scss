@@ -12,10 +12,10 @@ html {
 body {
 	font-family: $serif;
 	line-height: 1.75;
-	font-size: 112.5%; // 18px base font size
+	font-size: 90%; // 18px base font size
 	color: $black;
 	overflow-x: hidden;
-  margin: 0;
+  	margin: 0;
 
 	p , ul {
 		margin: 0 0 2rem;
@@ -40,7 +40,7 @@ img,video,audio,iframe,object{
 
 // Layout
 .container {
-  max-width: 610px;
+  	max-width: 90%;
 	padding: 0 20px;
 	margin-left: auto;
 	margin-right: auto;
@@ -176,8 +176,8 @@ HEADER STYLING
 ***************/
 
 .header {
-	background-color: $background-color;
-	background-image: url('../img/touring.jpg');
+	background-color: none;
+	background-image: url('../images/bg.jpg');
 	background-size: cover;
 	background-position: center center;
 	color: white;
@@ -185,8 +185,7 @@ HEADER STYLING
 	height: 3em;
 
 	.container {
-		padding: 0;
-    max-width: 100%;
+    	max-width: 100%;
 	}
 
 	h1 {
@@ -305,7 +304,8 @@ POST NAV STYLING
 	border-top: 1px solid darken(white, 10%);
 	border-bottom: 1px solid darken(white, 10%);
 	overflow: hidden;
-
+	padding: 0px 30px 0px 30px;
+	
 	.prev, .next {
 		display: block;
 		width: 100%;
@@ -382,7 +382,7 @@ FOOTER STYLING
 	.container {
 		border-top: 4px solid darken(white, 15%);
 		padding-top: .5em;
-    max-width: 90%;
+    	max-width: 90%;
 	}
 
 	.copy, .footer-links {
@@ -402,7 +402,7 @@ FOOTER STYLING
 
 				a {
 					display: inline-block;
-					width: 30px;
+					width: 32px;
 					height: 30px;
 					transition: all 0.2s ease-in-out;
 
